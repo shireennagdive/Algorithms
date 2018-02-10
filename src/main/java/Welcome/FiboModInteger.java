@@ -10,13 +10,13 @@ public class FiboModInteger {
         if (n <= 1) {
             System.out.println(n);
         } else {
-            long[] f = new long[(int)n+1];
+            long[] f = new long[(int) n + 1];
             f[0] = 0;
             f[1] = 1;
             for (int i = 2; i <= n; i++) {
-                f[i] = (f[i - 1] + f[i - 2])%m;
+                f[i] = (f[i - 1] + f[i - 2]) % m;
             }
-            System.out.println(f[(int)n]);
+            System.out.println(f[(int) n]);
         }
     }
 }//2816213588 30524

@@ -8,8 +8,8 @@ public class LCM {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
         int b = scanner.nextInt();
-        int gcd = a> b ? gcd(a,b) : gcd(b,a);
-        BigInteger lcm1 = BigInteger.valueOf(a/gcd).multiply(BigInteger.valueOf(b));
+        int gcd = a > b ? gcd(a, b) : gcd(b, a);
+        BigInteger lcm1 = BigInteger.valueOf(a / gcd).multiply(BigInteger.valueOf(b));
         System.out.println(lcm1);
     }
 
